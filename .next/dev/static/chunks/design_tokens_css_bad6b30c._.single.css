@@ -1,0 +1,41 @@
+/* [project]/design/tokens.css [app-client] (css) */
+:root {
+  --color-bg: #faf8f5;
+  --color-card: #f2efe9;
+  --color-divider: #e8e4de;
+  --color-accent: #7b6ee8;
+  --color-accent-hover: #6558d4;
+  --color-text: #111;
+  --color-muted: #777;
+  --color-subtle: #ccc;
+  --font-sans: var(--font-dm-sans), "DM Sans", sans-serif;
+  --font-serif: var(--font-playfair), "Libre Baskerville", serif;
+  --weight-extralight: 200;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --text-label: .65rem;
+  --text-nav: .72rem;
+  --text-btn: .78rem;
+  --text-btn-fill: .82rem;
+  --text-body: .95rem;
+  --text-hero: clamp(2.2rem, 5vw, 4rem);
+  --text-footer-cta: clamp(1.4rem, 3.5vw, 2.4rem);
+  --side: clamp(40px, 5vw, 40px);
+  --max-content: 1080px;
+  --radius-pill: 2rem;
+  --radius-card: 24px;
+  --radius-icon: 50%;
+  --shadow-card: 0 2px 16px #7b6ee812;
+  --shadow-card-hover: 0 6px 32px #7b6ee81c;
+  --ease-default: .25s ease;
+  --ease-card: .5s cubic-bezier(.25, .46, .45, .94);
+  --ease-menu: .38s cubic-bezier(.32, .72, 0, 1);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --side: 1.25rem;
+  }
+}
+
+/*# sourceMappingURL=design_tokens_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,211 @@
+/* [project]/components/Nav.module.css [app-client] (css) */
+.Nav-module__e1xquq__nav {
+  z-index: 200;
+  -webkit-backdrop-filter: blur(12px);
+  background: #faf8f5e6;
+  position: sticky;
+  top: 0;
+}
+
+.Nav-module__e1xquq__navInner {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  display: flex;
+}
+
+.Nav-module__e1xquq__logo {
+  color: var(--text);
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  display: flex;
+}
+
+.Nav-module__e1xquq__logoStar {
+  align-items: center;
+  display: flex;
+}
+
+.Nav-module__e1xquq__logoName {
+  font-family: var(--font-playfair), "Libre Baskerville", serif;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.Nav-module__e1xquq__navLinks {
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  display: flex;
+}
+
+.Nav-module__e1xquq__navText {
+  letter-spacing: 0;
+  color: var(--text);
+  white-space: nowrap;
+  padding-bottom: 3px;
+  font-size: clamp(1rem, 1.6vw, 1.1rem);
+  font-weight: 400;
+  text-decoration: none;
+  position: relative;
+}
+
+.Nav-module__e1xquq__navText:after {
+  content: "";
+  background: var(--accent);
+  width: 0;
+  height: 1px;
+  transition: width .25s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Nav-module__e1xquq__navText:hover {
+  color: var(--accent);
+}
+
+.Nav-module__e1xquq__navText:hover:after {
+  width: 100%;
+}
+
+.Nav-module__e1xquq__btnOutline {
+  letter-spacing: 0;
+  color: #fff;
+  background: var(--accent);
+  white-space: nowrap;
+  border-radius: 2rem;
+  padding: .55rem 1.3rem;
+  font-size: clamp(1rem, 1.6vw, 1.1rem);
+  font-weight: 400;
+  text-decoration: none;
+  transition: background .2s;
+}
+
+.Nav-module__e1xquq__btnOutline:hover {
+  background: var(--accent-hover);
+}
+
+.Nav-module__e1xquq__hamburger {
+  cursor: pointer;
+  color: var(--text);
+  background: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  display: none;
+}
+
+.Nav-module__e1xquq__overlay {
+  z-index: 300;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  background: #1e140a40;
+  transition: opacity .3s;
+  display: none;
+  position: fixed;
+  inset: 0;
+}
+
+.Nav-module__e1xquq__overlayVisible {
+  opacity: 1;
+}
+
+.Nav-module__e1xquq__mobileMenu {
+  z-index: 400;
+  background: var(--bg);
+  border-bottom: 1px solid var(--divider);
+  border-radius: 0 0 24px 24px;
+  padding: 1.2rem 1.5rem 1.8rem;
+  transition: transform .38s cubic-bezier(.32, .72, 0, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  box-shadow: 0 12px 40px #00000014;
+}
+
+.Nav-module__e1xquq__mobileMenuOpen {
+  transform: translateY(0);
+}
+
+.Nav-module__e1xquq__mobileMenuTop {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.Nav-module__e1xquq__closeBtn {
+  cursor: pointer;
+  color: var(--text);
+  background: none;
+  border: none;
+  padding: 4px;
+}
+
+.Nav-module__e1xquq__mobileLinks {
+  flex-direction: column;
+  list-style: none;
+  display: flex;
+}
+
+.Nav-module__e1xquq__mobileLinks li a {
+  letter-spacing: 0;
+  color: var(--text);
+  border-bottom: 1px solid var(--divider);
+  padding: .9rem 0;
+  font-size: clamp(1rem, 1.6vw, 1.1rem);
+  font-weight: 400;
+  text-decoration: none;
+  transition: color .2s;
+  display: block;
+}
+
+.Nav-module__e1xquq__mobileLinks li:last-child a {
+  border-bottom: none;
+}
+
+.Nav-module__e1xquq__mobileLinks li a:hover {
+  color: var(--accent);
+}
+
+.Nav-module__e1xquq__mobileCta {
+  text-align: center;
+  letter-spacing: 0;
+  color: #fff;
+  background: var(--accent);
+  border-radius: 2rem;
+  margin-top: 1.4rem;
+  padding: .7rem 1.3rem;
+  font-size: clamp(1rem, 1.6vw, 1.1rem);
+  font-weight: 400;
+  text-decoration: none;
+  transition: background .2s;
+  display: block;
+}
+
+.Nav-module__e1xquq__mobileCta:hover {
+  background: var(--accent-hover);
+}
+
+@media (max-width: 768px) {
+  .Nav-module__e1xquq__navLinks {
+    display: none;
+  }
+
+  .Nav-module__e1xquq__hamburger {
+    display: flex;
+  }
+
+  .Nav-module__e1xquq__overlay {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=components_Nav_module_css_bad6b30c._.single.css.map*/

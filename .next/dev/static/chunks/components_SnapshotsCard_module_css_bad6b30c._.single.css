@@ -1,0 +1,113 @@
+/* [project]/components/SnapshotsCard.module.css [app-client] (css) */
+.SnapshotsCard-module__tFYQqq__card {
+  border-radius: var(--radius-card);
+  cursor: pointer;
+  z-index: 2;
+  width: fit-content;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--ease-default), transform var(--ease-default);
+  align-items: stretch;
+  margin-top: 2.8rem;
+  text-decoration: none;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.SnapshotsCard-module__tFYQqq__card:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+.SnapshotsCard-module__tFYQqq__cover {
+  width: 88px;
+  transition: background var(--ease-default);
+  background: #111;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.SnapshotsCard-module__tFYQqq__card:hover .SnapshotsCard-module__tFYQqq__cover {
+  background: #2a2a2a;
+}
+
+.SnapshotsCard-module__tFYQqq__emoji {
+  transition: transform var(--ease-card);
+  font-size: 1.6rem;
+  line-height: 1;
+  display: block;
+}
+
+.SnapshotsCard-module__tFYQqq__card:hover .SnapshotsCard-module__tFYQqq__emoji {
+  transform: scale(1.15);
+}
+
+.SnapshotsCard-module__tFYQqq__label {
+  -webkit-backdrop-filter: blur(20px) saturate(200%) brightness(1.05);
+  transition: background var(--ease-default);
+  background: #f2efe9d1;
+  border-top: 1px solid #ffffffbf;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: .9rem 1.1rem 1rem;
+  display: flex;
+  box-shadow: 0 -1px #fff6, inset 0 1px #ffffff80;
+}
+
+.SnapshotsCard-module__tFYQqq__card:hover .SnapshotsCard-module__tFYQqq__label {
+  background: #f2efe9f2;
+}
+
+.SnapshotsCard-module__tFYQqq__title {
+  font-family: var(--font-sans);
+  font-weight: var(--weight-regular);
+  color: var(--color-text);
+  transition: color var(--ease-default);
+  margin-bottom: .2rem;
+  font-size: clamp(1rem, 1.6vw, 1.1rem);
+  line-height: 1.3;
+  display: block;
+}
+
+.SnapshotsCard-module__tFYQqq__card:hover .SnapshotsCard-module__tFYQqq__title {
+  color: #111;
+}
+
+.SnapshotsCard-module__tFYQqq__sub {
+  font-size: var(--text-label);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  font-weight: var(--weight-regular);
+  display: block;
+}
+
+.SnapshotsCard-module__tFYQqq__chevron {
+  width: 28px;
+  height: 28px;
+  transition: transform var(--ease-default);
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.SnapshotsCard-module__tFYQqq__chevron svg {
+  stroke: #c5bfb8;
+  width: 16px;
+  height: 16px;
+  transition: stroke var(--ease-default);
+}
+
+.SnapshotsCard-module__tFYQqq__card:hover .SnapshotsCard-module__tFYQqq__chevron {
+  transform: translateX(3px);
+}
+
+.SnapshotsCard-module__tFYQqq__card:hover .SnapshotsCard-module__tFYQqq__chevron svg {
+  stroke: #111;
+}
+
+/*# sourceMappingURL=components_SnapshotsCard_module_css_bad6b30c._.single.css.map*/

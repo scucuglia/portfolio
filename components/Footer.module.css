@@ -1,0 +1,72 @@
+.footer {
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  background: var(--card);
+  margin-top: 3rem;
+}
+
+.footerInner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.ctaLabel {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.cta {
+  font-family: var(--font-playfair), 'Libre Baskerville', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(1.4rem, 3.5vw, 2.4rem);
+  color: var(--text);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.btnFilled {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: clamp(1rem, 1.6vw, 1.1rem);
+  letter-spacing: 0;
+  color: #fff;
+  text-decoration: none;
+  background: var(--text);
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 2rem;
+  font-weight: 400;
+  transition: background 0.2s;
+}
+
+.btnFilled:hover {
+  background: #333;
+}
+
+.bottomBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 4rem;
+  padding-top: 0;
+}
+
+.copy {
+  font-size: 0.65rem;
+  color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .footerInner {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}

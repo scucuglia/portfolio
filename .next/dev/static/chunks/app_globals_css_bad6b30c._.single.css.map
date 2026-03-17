@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/globals.css"],"sourcesContent":["/* Design tokens — single source of truth */\n@import \"../design/tokens.css\";\n\n*, *::before, *::after {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n/* Aliases used throughout component CSS modules */\n:root {\n  --bg:           var(--color-bg);\n  --card:         var(--color-card);\n  --divider:      var(--color-divider);\n  --accent:       var(--color-accent);\n  --accent-hover: var(--color-accent-hover);\n  --text:         var(--color-text);\n  --muted:        var(--color-muted);\n  --subtle:       var(--color-subtle);\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-family: var(--font-sans);\n  background: var(--bg);\n  color: var(--text);\n  min-height: 100vh;\n}\n\n/* ── Layout utility ── */\n.wrap {\n  width: 100%;\n  max-width: calc(var(--max-content) + var(--side) * 2);\n  margin: 0 auto;\n  padding: 0 var(--side);\n}\n"],"names":[],"mappings":"AAGA;;;;;;AAOA;;;;;;;;;;;AAWA;;;;AAIA;;;;;;;AAQA"}}]
+}

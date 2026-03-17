@@ -1,0 +1,39 @@
+/* Design tokens — single source of truth */
+@import "../design/tokens.css";
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Aliases used throughout component CSS modules */
+:root {
+  --bg:           var(--color-bg);
+  --card:         var(--color-card);
+  --divider:      var(--color-divider);
+  --accent:       var(--color-accent);
+  --accent-hover: var(--color-accent-hover);
+  --text:         var(--color-text);
+  --muted:        var(--color-muted);
+  --subtle:       var(--color-subtle);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* ── Layout utility ── */
+.wrap {
+  width: 100%;
+  max-width: calc(var(--max-content) + var(--side) * 2);
+  margin: 0 auto;
+  padding: 0 var(--side);
+}

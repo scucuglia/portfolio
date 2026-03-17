@@ -1,0 +1,129 @@
+/* [project]/components/WorkSection.module.css [app-client] (css) */
+.WorkSection-module__SB3eUq__section {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.WorkSection-module__SB3eUq__label {
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+  font-size: .72rem;
+  font-weight: 300;
+  display: block;
+}
+
+.WorkSection-module__SB3eUq__grid {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: .875rem;
+  display: grid;
+}
+
+.WorkSection-module__SB3eUq__card {
+  border-radius: var(--radius-card);
+  aspect-ratio: 3 / 2;
+  cursor: pointer;
+  background: var(--card);
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--ease-default), transform var(--ease-default);
+  text-decoration: none;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.WorkSection-module__SB3eUq__card:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+.WorkSection-module__SB3eUq__cover {
+  object-fit: cover;
+  object-position: top center;
+  transition: transform var(--ease-card);
+}
+
+.WorkSection-module__SB3eUq__card:hover .WorkSection-module__SB3eUq__cover {
+  transform: scale(1.04);
+}
+
+.WorkSection-module__SB3eUq__cardLabel {
+  -webkit-backdrop-filter: blur(64px) saturate(180%) brightness(1.05);
+  background: #f2efe9ed;
+  border-top: 1px solid #ffffffbf;
+  padding: .9rem 1.1rem 1rem;
+  transition: background .3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 -1px #fff6, inset 0 1px #ffffff80;
+}
+
+.WorkSection-module__SB3eUq__card:hover .WorkSection-module__SB3eUq__cardLabel {
+  background: #f2efe9f7;
+}
+
+.WorkSection-module__SB3eUq__cardLabelRow {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+}
+
+.WorkSection-module__SB3eUq__cardTitle {
+  font-family: var(--font-dm-sans), "DM Sans", sans-serif;
+  color: var(--text);
+  margin-bottom: .2rem;
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  font-weight: 400;
+  line-height: 1.3;
+  transition: color .25s;
+  display: block;
+}
+
+.WorkSection-module__SB3eUq__cardSub {
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-size: .7rem;
+  font-weight: 400;
+  display: block;
+}
+
+.WorkSection-module__SB3eUq__chevron {
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  transition: transform .25s;
+  display: flex;
+}
+
+.WorkSection-module__SB3eUq__chevron svg {
+  stroke: #c5bfb8;
+  width: 16px;
+  height: 16px;
+  transition: stroke .25s;
+}
+
+.WorkSection-module__SB3eUq__card:hover .WorkSection-module__SB3eUq__cardTitle {
+  color: var(--accent);
+}
+
+.WorkSection-module__SB3eUq__card:hover .WorkSection-module__SB3eUq__chevron {
+  transform: translateX(3px);
+}
+
+.WorkSection-module__SB3eUq__card:hover .WorkSection-module__SB3eUq__chevron svg {
+  stroke: var(--accent);
+}
+
+@media (max-width: 480px) {
+  .WorkSection-module__SB3eUq__card {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/*# sourceMappingURL=components_WorkSection_module_css_bad6b30c._.single.css.map*/

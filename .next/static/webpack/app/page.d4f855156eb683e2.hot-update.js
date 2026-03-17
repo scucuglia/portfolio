@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./components/PublicationsSection.module.css":
+/*!***************************************************!*\
+  !*** ./components/PublicationsSection.module.css ***!
+  \***************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"section\":\"PublicationsSection_section__VenSO\",\"sectionLabel\":\"PublicationsSection_sectionLabel__OHtpl\",\"list\":\"PublicationsSection_list__FYtjV\",\"card\":\"PublicationsSection_card__hI_vd\",\"cover\":\"PublicationsSection_cover__oFiTg\",\"emoji\":\"PublicationsSection_emoji__Xwp_C\",\"label\":\"PublicationsSection_label__Mqwwg\",\"text\":\"PublicationsSection_text__MT_yu\",\"title\":\"PublicationsSection_title__DfIeN\",\"tag\":\"PublicationsSection_tag__2BUjk\",\"chevron\":\"PublicationsSection_chevron__rZrS5\"};\n    if(true) {\n      // 1773690217466\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"8794752464fb\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2NvbXBvbmVudHMvUHVibGljYXRpb25zU2VjdGlvbi5tb2R1bGUuY3NzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0Esa0JBQWtCO0FBQ2xCLE9BQU8sSUFBVTtBQUNqQjtBQUNBLHNCQUFzQixtQkFBTyxDQUFDLHdNQUFtSixjQUFjLHNEQUFzRDtBQUNyUCxNQUFNLFVBQVU7QUFDaEI7QUFDQTtBQUNBO0FBQ0EseUJBQXlCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL2NvbXBvbmVudHMvUHVibGljYXRpb25zU2VjdGlvbi5tb2R1bGUuY3NzPzAxMTYiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5tb2R1bGUuZXhwb3J0cyA9IHtcInNlY3Rpb25cIjpcIlB1YmxpY2F0aW9uc1NlY3Rpb25fc2VjdGlvbl9fVmVuU09cIixcInNlY3Rpb25MYWJlbFwiOlwiUHVibGljYXRpb25zU2VjdGlvbl9zZWN0aW9uTGFiZWxfX09IdHBsXCIsXCJsaXN0XCI6XCJQdWJsaWNhdGlvbnNTZWN0aW9uX2xpc3RfX0ZZdGpWXCIsXCJjYXJkXCI6XCJQdWJsaWNhdGlvbnNTZWN0aW9uX2NhcmRfX2hJX3ZkXCIsXCJjb3ZlclwiOlwiUHVibGljYXRpb25zU2VjdGlvbl9jb3Zlcl9fb0ZpVGdcIixcImVtb2ppXCI6XCJQdWJsaWNhdGlvbnNTZWN0aW9uX2Vtb2ppX19Yd3BfQ1wiLFwibGFiZWxcIjpcIlB1YmxpY2F0aW9uc1NlY3Rpb25fbGFiZWxfX01xd3dnXCIsXCJ0ZXh0XCI6XCJQdWJsaWNhdGlvbnNTZWN0aW9uX3RleHRfX01UX3l1XCIsXCJ0aXRsZVwiOlwiUHVibGljYXRpb25zU2VjdGlvbl90aXRsZV9fRGZJZU5cIixcInRhZ1wiOlwiUHVibGljYXRpb25zU2VjdGlvbl90YWdfXzJCVWprXCIsXCJjaGV2cm9uXCI6XCJQdWJsaWNhdGlvbnNTZWN0aW9uX2NoZXZyb25fX3JaclM1XCJ9O1xuICAgIGlmKG1vZHVsZS5ob3QpIHtcbiAgICAgIC8vIDE3NzM2OTAyMTc0NjZcbiAgICAgIHZhciBjc3NSZWxvYWQgPSByZXF1aXJlKFwiL1VzZXJzL2p1bGlhc2N1Y3VnbGlhL0Rlc2t0b3AvUG9yZnRvbGlvIENsYXVkZS9wb3J0Zm9saW8tbmV4dC9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NvbXBpbGVkL21pbmktY3NzLWV4dHJhY3QtcGx1Z2luL2htci9ob3RNb2R1bGVSZXBsYWNlbWVudC5qc1wiKShtb2R1bGUuaWQsIHtcInB1YmxpY1BhdGhcIjpcIi9fbmV4dC9cIixcImVzTW9kdWxlXCI6ZmFsc2UsXCJsb2NhbHNcIjp0cnVlfSk7XG4gICAgICBtb2R1bGUuaG90LmRpc3Bvc2UoY3NzUmVsb2FkKTtcbiAgICAgIFxuICAgIH1cbiAgXG5tb2R1bGUuZXhwb3J0cy5fX2NoZWNrc3VtID0gXCI4Nzk0NzUyNDY0ZmJcIlxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./components/PublicationsSection.module.css\n"));
+
+/***/ })
+
+});

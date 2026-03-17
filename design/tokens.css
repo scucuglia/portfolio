@@ -1,0 +1,74 @@
+/*
+  ┌─────────────────────────────────────────────┐
+  │  DESIGN TOKENS — Júlia Scucuglia Portfolio  │
+  │  Source of truth for all CSS variables.     │
+  │  Imported in app/globals.css                │
+  └─────────────────────────────────────────────┘
+*/
+
+:root {
+
+  /* ── COLORS ── */
+
+  /* Backgrounds */
+  --color-bg:      #FAF8F5;   /* page background — warm off-white */
+  --color-card:    #F2EFE9;   /* card surface — slightly darker */
+  --color-divider: #E8E4DE;   /* borders and dividers */
+
+  /* Accent */
+  --color-accent:       #7B6EE8;   /* primary purple */
+  --color-accent-hover: #6558D4;   /* darker on hover */
+
+  /* Text */
+  --color-text:   #111;   /* primary text */
+  --color-muted:  #777;   /* secondary/label text */
+  --color-subtle: #ccc;   /* disabled, copyright, faint UI */
+
+  /* ── TYPOGRAPHY ── */
+
+  /* Font families (CSS vars set by next/font in layout.tsx) */
+  --font-sans:  var(--font-dm-sans),  'DM Sans', sans-serif;
+  --font-serif: var(--font-playfair), 'Libre Baskerville', serif;
+
+  /* Font weights */
+  --weight-extralight: 200;
+  --weight-light:      300;
+  --weight-regular:    400;
+
+  /* Type scale */
+  --text-label:    0.65rem;   /* tags, copyright, location */
+  --text-nav:      0.72rem;   /* nav links, section labels, eyebrow */
+  --text-btn:      0.78rem;   /* outline button */
+  --text-btn-fill: 0.82rem;   /* filled button */
+  --text-body:     0.95rem;   /* publication titles, body copy */
+  --text-hero:     clamp(2.2rem, 5vw, 4rem);   /* hero h1 */
+  --text-footer-cta: clamp(1.4rem, 3.5vw, 2.4rem);
+
+  /* ── SPACING ── */
+
+  --side:         clamp(40px, 5vw, 40px);   /* horizontal page padding */
+  --max-content:  1080px;                   /* max content width */
+
+  /* ── RADIUS ── */
+
+  --radius-pill: 2rem;    /* buttons */
+  --radius-card: 24px;    /* project cards */
+  --radius-icon: 50%;     /* linkedin button */
+
+  /* ── SHADOWS ── */
+
+  --shadow-card:       0 2px 16px rgba(123, 110, 232, 0.07);   /* default */
+  --shadow-card-hover: 0 6px 32px rgba(123, 110, 232, 0.11);   /* on hover */
+
+  /* ── MOTION ── */
+
+  --ease-default:  0.25s ease;
+  --ease-card:     0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-menu:     0.38s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --side: 1.25rem;
+  }
+}
