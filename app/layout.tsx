@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans, Libre_Baskerville } from "next/font/google";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -35,7 +37,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${dmSans.variable} ${libreBaskerville.variable}`}>
-      <body>{children}</body>
+      <body>
+          <Nav />
+          {children}
+          <Footer />
+        </body>
     </html>
   );
 }

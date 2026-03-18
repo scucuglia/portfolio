@@ -1,0 +1,436 @@
+.main {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+}
+
+.back {
+  padding: 1.5rem 0 2rem;
+}
+
+/* ── Hero ── */
+.hero {
+  max-width: 720px;
+  margin-bottom: 3.5rem;
+}
+
+.meta {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.tag {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  background: var(--color-card);
+  padding: 0.3rem 0.75rem;
+  border-radius: 2rem;
+  font-weight: 300;
+}
+
+.title {
+  font-family: var(--font-playfair), 'Libre Baskerville', serif;
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.15;
+  color: var(--color-text);
+  margin-bottom: 1.2rem;
+}
+
+.subtitle {
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+  font-weight: 300;
+  color: var(--color-muted);
+  line-height: 1.6;
+  max-width: 620px;
+}
+
+/* ── Hero cover image ── */
+.coverWrap {
+  width: 100%;
+  margin-bottom: 5rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.coverWrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── UI Grid ── */
+.uiGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.uiCell {
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+.uiCell img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── Sections ── */
+.section {
+  padding: 3.5rem 0;
+}
+
+.sectionInner {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.sideLabel {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  font-weight: 300;
+  padding-top: 0.35rem;
+  position: sticky;
+  top: 6rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.content p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.sectionTitle {
+  font-family: var(--font-playfair), 'Libre Baskerville', serif;
+  font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+  color: var(--color-text);
+}
+
+/* ── Callout ── */
+.callout {
+  background: var(--color-card);
+  border-left: 2px solid var(--color-accent);
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1rem 1.25rem !important;
+  font-size: 0.95rem !important;
+  color: var(--color-text) !important;
+  line-height: 1.6 !important;
+}
+
+/* ── Goal Grid ── */
+.goalGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.goalCard {
+  background: var(--color-card);
+  border: 1px solid var(--color-divider);
+  border-radius: 1rem;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.goalIcon {
+  font-size: 1.3rem;
+}
+
+/* ── Timeline ── */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--color-divider);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.timelineItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 1.2rem;
+  border-bottom: 1px solid var(--color-divider);
+  font-size: 0.9rem;
+}
+
+.timelineItem:last-child {
+  border-bottom: none;
+}
+
+.timelineLabel {
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.timelineWeeks {
+  font-weight: 300;
+  color: var(--color-muted);
+  font-size: 0.82rem;
+}
+
+/* ── HMW Block ── */
+.hmwSection {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hmwLabel {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.hmw {
+  font-family: var(--font-playfair), 'Libre Baskerville', serif;
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.35;
+  color: var(--color-text);
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* ── Two Col ── */
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.twoColBox {
+  background: var(--color-card);
+  border: 1px solid var(--color-divider);
+  border-radius: 1rem;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.twoColLabel {
+  font-size: 0.78rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-muted) !important;
+  margin-bottom: 0.3rem;
+}
+
+/* ── List ── */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.list li {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: var(--color-text);
+  padding-left: 1.2rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.list li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--color-muted);
+}
+
+/* ── Chips ── */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: var(--color-text);
+  background: var(--color-card);
+  border: 1px solid var(--color-divider);
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+}
+
+/* ── Stats ── */
+.stats {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.statNumber {
+  font-family: var(--font-playfair), 'Libre Baskerville', serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: var(--color-text);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--color-muted);
+  font-weight: 300;
+  max-width: 140px;
+  line-height: 1.4;
+}
+
+/* ── Learnings ── */
+.learnings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.learning {
+  background: var(--color-card);
+  border: 1px solid var(--color-divider);
+  border-radius: 1rem;
+  padding: 1.4rem;
+}
+
+.learningTitle {
+  font-family: var(--font-playfair), 'Libre Baskerville', serif;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  line-height: 1.4 !important;
+  color: var(--color-text) !important;
+}
+
+/* ── Divider ── */
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-divider);
+  margin: 0;
+}
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .main {
+    padding-bottom: 4rem;
+  }
+
+  .back {
+    padding: 1rem 0 1.5rem;
+  }
+
+  .hero {
+    margin-bottom: 2rem;
+  }
+
+  .coverWrap {
+    margin-bottom: 2.5rem;
+    border-radius: 0.75rem;
+  }
+
+  .section {
+    padding: 2rem 0;
+  }
+
+  .sectionInner {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .sideLabel {
+    position: static;
+  }
+
+  .goalGrid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .learnings {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .twoCol {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .stats {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .statNumber {
+    font-size: 2rem;
+  }
+
+  .hmwSection {
+    padding: 2rem 0;
+    text-align: left;
+  }
+
+  .hmw {
+    font-size: clamp(1.2rem, 5vw, 1.6rem);
+  }
+
+  /* UI grid: 2 cols on mobile */
+  .uiGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .uiCell {
+    border-radius: 0.5rem;
+  }
+
+  .timeline {
+    border-radius: 0.75rem;
+  }
+
+  .sectionTitle {
+    font-size: clamp(1.1rem, 4vw, 1.4rem);
+  }
+}

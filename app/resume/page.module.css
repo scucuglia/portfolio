@@ -1,0 +1,299 @@
+.main {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+}
+
+.back {
+  padding: 1.5rem 0 2.5rem;
+}
+
+/* ── Header ── */
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.name {
+  font-family: var(--font-playfair), 'Libre Baskerville', serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--color-text);
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  letter-spacing: 0.02em;
+}
+
+.contact {
+  font-size: 0.88rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.25rem;
+}
+
+.contact a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.dot {
+  color: var(--color-divider);
+  user-select: none;
+}
+
+.downloadBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.25rem;
+  border: 1px solid var(--color-divider);
+  border-radius: 2rem;
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: var(--color-text);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s;
+  flex-shrink: 0;
+  margin-top: 0.5rem;
+}
+
+.downloadBtn:hover {
+  background: var(--color-card);
+  border-color: var(--color-text);
+}
+
+/* ── Divider ── */
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-divider);
+  margin: 0;
+}
+
+/* ── Section layout ── */
+.section {
+  padding: 2.5rem 0;
+}
+
+.sectionInner {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.sectionLabel {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  font-weight: 300;
+  padding-top: 0.2rem;
+  position: sticky;
+  top: 6rem;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ── Summary ── */
+.summary {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+/* ── Skills ── */
+.skillsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.skillGroupLabel {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--color-muted);
+  margin-bottom: 0.5rem;
+}
+
+.skillList {
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+/* ── Experience ── */
+.role {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.role:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.roleHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.roleTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text);
+  line-height: 1.4;
+}
+
+.roleCompany {
+  font-size: 0.88rem;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--color-muted);
+  margin-top: 0.2rem;
+}
+
+.rolePeriod {
+  font-size: 0.82rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  white-space: nowrap;
+  padding-top: 0.15rem;
+}
+
+.roleList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.roleList li {
+  font-size: 0.92rem;
+  font-weight: 300;
+  color: var(--color-text);
+  line-height: 1.7;
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.roleList li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--color-muted);
+}
+
+.roleList strong {
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+/* ── Education ── */
+.eduList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.edu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.eduDegree {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--color-text);
+  line-height: 1.4;
+}
+
+.eduSchool {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  margin-top: 0.15rem;
+}
+
+.eduPeriod {
+  font-size: 0.82rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  white-space: nowrap;
+  padding-top: 0.15rem;
+}
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .main {
+    padding-bottom: 4rem;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-bottom: 2rem;
+  }
+
+  .sectionInner {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .sectionLabel {
+    position: static;
+  }
+
+  .skillsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .roleHeader {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .edu {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}

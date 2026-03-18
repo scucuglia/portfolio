@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/TiltCard.module.css"],"sourcesContent":[".tilt {\n  position: relative;\n  transform-style: preserve-3d;\n  will-change: transform;\n  border-radius: inherit;\n  overflow: visible; /* tag must not be clipped */\n}\n\n/* specular glare layer */\n.glare {\n  position: absolute;\n  inset: 0;\n  border-radius: inherit;\n  pointer-events: none;\n  z-index: 2;\n  background: radial-gradient(\n    circle at 30% 30%,\n    rgba(255, 255, 255, 0.18) 0%,\n    transparent 65%\n  );\n  opacity: 0;\n  transition: opacity 0.3s ease;\n}\n\n.tilt:hover .glare {\n  opacity: 1;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AASA;;;;;;;;;;;AAeA"}}]
-}

@@ -9,7 +9,7 @@ export default function Footer() {
         <div>
           <p className={styles.ctaLabel}>Loved something here?</p>
           <p className={styles.cta}>Let&apos;s make something together.</p>
-          <a href="mailto:julia@example.com" className={styles.btnFilled}>
+          <a href="https://www.linkedin.com/in/juliascucuglia/" target="_blank" rel="noopener noreferrer" className={styles.btnFilled}>
             Say hello
             <span role="img" aria-label="waving hand">👋</span>
           </a>

@@ -8,7 +8,7 @@ import styles from "./Nav.module.css";
 const NAV_LINKS = [
   { label: "Work", href: "/#work" },
   { label: "About", href: "/#about" },
-  { label: "Resume", href: "#" },
+  { label: "Resume", href: "/resume" },
 ];
 
 export default function Nav() {
@@ -50,14 +50,15 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-        <a href="mailto:julia@example.com" className={styles.mobileCta} onClick={close}>
+        <a href="https://www.linkedin.com/in/juliascucuglia/" target="_blank" rel="noopener noreferrer" className={styles.mobileCta} onClick={close}>
           Let&apos;s chat
         </a>
       </div>
 
       {/* Desktop nav */}
       <nav className={styles.nav}>
-        <div className={`wrap ${styles.navInner}`}>
+        <div className="wrap">
+        <div className={styles.navInner}>
           <Link href="/" className={styles.logo}>
             <div className={styles.logoStar}>
               <AnimatedStar size={16} />
@@ -72,7 +73,7 @@ export default function Nav() {
               </li>
             ))}
             <li>
-              <a href="mailto:julia@example.com" className={styles.btnOutline}>
+              <a href="https://www.linkedin.com/in/juliascucuglia/" target="_blank" rel="noopener noreferrer" className={styles.btnOutline}>
                 Let&apos;s chat
               </a>
             </li>
@@ -89,6 +90,7 @@ export default function Nav() {
               <line x1="3" y1="17" x2="21" y2="17" />
             </svg>
           </button>
+        </div>
         </div>
       </nav>
     </>
