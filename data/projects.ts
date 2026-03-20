@@ -13,7 +13,7 @@ export const projects: Project[] = [
     slug: "yuna",
     title: "Yuna",
     subtitle: "Magical Reading for Kids · 2023–2025",
-    coverImage: "/covers/yuna.png",
+    coverImage: "/covers/Yuna.png",
     href: "/work/yuna",
   },
   {

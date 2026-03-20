@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { DM_Sans, Libre_Baskerville } from "next/font/google";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -18,6 +18,12 @@ const libreBaskerville = Libre_Baskerville({
   variable: "--font-playfair",
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover", // allows env(safe-area-inset-*) to work on notched iPhones
+};
 
 export const metadata: Metadata = {
   title: "Júlia Scucuglia — Senior Product Designer",
